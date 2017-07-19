@@ -1,0 +1,34 @@
+/*
+    Reset
+    question à l'embauche
+    1 - 
+    2 - valeur 1 en html = 16px
+*/
+
+    *{
+        margin: 0;
+        padding: 0;
+
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    html{
+        /* balise p = 1rem soit 16px
+        16.5 * 62.5 / 100 = 10
+        donc  
+        l'intéret ttes les font-size sont en rem et pour agrandir ou diminuer le txt je modifie le % de html*/
+        font-size: 62.5%
+    }
+
+    body{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h1 span{
+        font-size: .5em;
+    }
